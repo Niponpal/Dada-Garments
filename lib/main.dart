@@ -1,3 +1,4 @@
+import 'package:dadagarments/homescreen.dart';
 import 'package:dadagarments/loginScreen.dart';
 import 'package:dadagarments/registerscreen.dart';
 import 'package:dadagarments/splashscreen.dart';
@@ -7,7 +8,7 @@ void main (){
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RegisterscreenView(),
+      home: HomescreenView(),
     ),
   );
 }

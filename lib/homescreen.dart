@@ -1025,9 +1025,7 @@ class _HomescreenViewState extends State<HomescreenView> {
                         ),
                       ),
                     ),
-                
-                
-                
+
                   ],
                 ),
               ),

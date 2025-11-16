@@ -27,7 +27,14 @@ class _CategoriescreenViewState extends State<CategoriescreenView> {
             child: Image(image: AssetImage("assets/Maskgroup.png")),
           ),
         ),
-        title: Text("Categories",style: TextStyle(fontWeight: FontWeight.w600,fontSize: 20,color: Color(0xff1E1E1E)),),
+        title: Text(
+          "Categories",
+          style: TextStyle(
+            fontWeight: FontWeight.w600,
+            fontSize: 20,
+            color: Color(0xff1E1E1E),
+          ),
+        ),
         centerTitle: true,
         actions: [
           Container(
@@ -86,68 +93,7 @@ class _CategoriescreenViewState extends State<CategoriescreenView> {
                 ),
               ],
             ),
-            SizedBox(height: 10,),
-           Row(
-             spacing: 20,
-             children: [
-               Container(
-                 width: 185,
-                 height: 140,
-                 decoration: BoxDecoration(
-                   color: Color(0xffFFF9F4),
-                   borderRadius: BorderRadius.circular(12),
-                   boxShadow: [
-                     BoxShadow(
-                       color: Colors.grey.withOpacity(0.3),
-                       spreadRadius: 2,
-                       blurRadius: 5,
-
-                     ),
-                   ],
-                 ),
-                 child: Padding(
-                   padding: const EdgeInsets.only(left: 32,top:25 ),
-                   child: Column(
-                     crossAxisAlignment: CrossAxisAlignment.start,
-                     spacing: 12,
-                     children: [
-                       Text("Women’s 2",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,color: Color(0xff424242)),),
-                       Text("380 Items",style: TextStyle(fontSize: 14,fontWeight: FontWeight.w500,color: Color(0xff757575)),)
-                     ],
-                   ),
-                 ),
-               ),
-               Container(
-                 width: 185,
-                 height: 140,
-                 decoration: BoxDecoration(
-                   color: Color(0xffFFF9F4),
-                   borderRadius: BorderRadius.circular(12),
-                   boxShadow: [
-                     BoxShadow(
-                       color: Colors.grey.withOpacity(0.3),
-                       spreadRadius: 2,
-                       blurRadius: 5,
-
-                     ),
-                   ],
-                 ),
-                 child: Padding(
-                   padding: const EdgeInsets.only(left: 32,top:25 ),
-                   child: Column(
-                     crossAxisAlignment: CrossAxisAlignment.start,
-                     spacing: 12,
-                     children: [
-                       Text("Women’s",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,color: Color(0xff424242)),),
-                       Text("140 Items",style: TextStyle(fontSize: 14,fontWeight: FontWeight.w500,color: Color(0xff757575)),)
-                     ],
-                   ),
-                 ),
-               )
-             ],
-           ),
-
-
+            SizedBox(height: 10),
             Row(
               spacing: 20,
               children: [
@@ -162,18 +108,31 @@ class _CategoriescreenViewState extends State<CategoriescreenView> {
                         color: Colors.grey.withOpacity(0.3),
                         spreadRadius: 2,
                         blurRadius: 5,
-
                       ),
                     ],
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.only(left: 32,top:25 ),
+                    padding: const EdgeInsets.only(left: 32, top: 25),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       spacing: 12,
                       children: [
-                        Text("Party Abaya",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,color: Color(0xff424242)),),
-                        Text("380 Items",style: TextStyle(fontSize: 14,fontWeight: FontWeight.w500,color: Color(0xff757575)),)
+                        Text(
+                          "Women’s 2",
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w600,
+                            color: Color(0xff424242),
+                          ),
+                        ),
+                        Text(
+                          "380 Items",
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
+                            color: Color(0xff757575),
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -189,25 +148,123 @@ class _CategoriescreenViewState extends State<CategoriescreenView> {
                         color: Colors.grey.withOpacity(0.3),
                         spreadRadius: 2,
                         blurRadius: 5,
-
                       ),
                     ],
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.only(left: 32,top:25 ),
+                    padding: const EdgeInsets.only(left: 32, top: 25),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       spacing: 12,
                       children: [
-                        Text("Embroidery Abaya",style: TextStyle(fontSize: 16,fontWeight: FontWeight.w600,color: Color(0xff424242)),),
-                        Text("380 Items",style: TextStyle(fontSize: 14,fontWeight: FontWeight.w500,color: Color(0xff757575)),)
+                        Text(
+                          "Women’s",
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w600,
+                            color: Color(0xff424242),
+                          ),
+                        ),
+                        Text(
+                          "140 Items",
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
+                            color: Color(0xff757575),
+                          ),
+                        ),
                       ],
                     ),
                   ),
-                )
+                ),
               ],
-            )
+            ),
 
+            Row(
+              spacing: 20,
+              children: [
+                Container(
+                  width: 185,
+                  height: 140,
+                  decoration: BoxDecoration(
+                    color: Color(0xffFFF9F4),
+                    borderRadius: BorderRadius.circular(12),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.3),
+                        spreadRadius: 2,
+                        blurRadius: 5,
+                      ),
+                    ],
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 32, top: 25),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 12,
+                      children: [
+                        Text(
+                          "Party Abaya",
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w600,
+                            color: Color(0xff424242),
+                          ),
+                        ),
+                        Text(
+                          "380 Items",
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
+                            color: Color(0xff757575),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  width: 185,
+                  height: 140,
+                  decoration: BoxDecoration(
+                    color: Color(0xffFFF9F4),
+                    borderRadius: BorderRadius.circular(12),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.3),
+                        spreadRadius: 2,
+                        blurRadius: 5,
+                      ),
+                    ],
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 32, top: 25),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 12,
+                      children: [
+                        Text(
+                          "Embroidery Abaya",
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w600,
+                            color: Color(0xff424242),
+                          ),
+                        ),
+                        Text(
+                          "380 Items",
+                          style: TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
+                            color: Color(0xff757575),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),

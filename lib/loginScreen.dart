@@ -237,7 +237,6 @@ class _LoginscreenViewState extends State<LoginscreenView> {
               ],
             )
 
-
           ],
         ),
       ),

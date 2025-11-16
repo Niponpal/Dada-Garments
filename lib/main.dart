@@ -1,3 +1,4 @@
+import 'package:dadagarments/cart4.dart';
 import 'package:dadagarments/categoriescreen.dart';
 import 'package:dadagarments/discountscreen.dart';
 import 'package:dadagarments/homescreen.dart';
@@ -10,7 +11,7 @@ void main (){
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DiscountscreenView(),
+      home: Cart4ScreenView(),
     ),
   );
 }
